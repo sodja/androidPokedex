@@ -13,105 +13,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f7b3b7c-51ce-4824-8cde-18b1bbb5542d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/MyPokedexApplication.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/adapter/PokedexAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/adapter/PokedexDiffCallback.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/models/PokedexListEntry.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/ApiInterface.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/SafeApiRequest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/Ability.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/AbilityX.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/Animated.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/BlackWhite.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/Crystal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/DiamondPearl.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/DreamWorld.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/Emerald.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/FireredLeafgreen.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/Form.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/GameIndice.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/GenerationI.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/GenerationIi.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/GenerationIii.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/GenerationIv.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/GenerationV.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/GenerationVi.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/GenerationVii.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/GenerationViii.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/Gold.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/HeartgoldSoulsilver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/Icons.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/IconsX.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/Move.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/MoveLearnMethod.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/MoveX.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/OfficialArtwork.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/OmegarubyAlphasapphire.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/Other.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/Platinum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/Pokemon.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/PokemonList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/RedBlue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/Result.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/RubySapphire.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/Silver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/Species.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/Sprites.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/Stat.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/StatX.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/Type.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/TypeX.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/UltraSunUltraMoon.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/Version.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/VersionGroup.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/VersionGroupDetail.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/Versions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/XY.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/remote/responses/Yellow.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/di/AppModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/repository/PokedexRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/ui/fragments/PokedexDetailFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/ui/fragments/PokedexListFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/ui/viewmodels/PokedexDetailViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/ui/viewmodels/PokedexListViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/utils/Constants.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/utils/Pokedexparse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/utils/Resource.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_height.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_international_pok_mon_logo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_weight.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/roboto_bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/roboto_condensed_light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/roboto_condensed_regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/roboto_light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/roboto_medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/roboto_regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/pokedex_detail_fragment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/pokedex_items.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/pokedex_list_fragment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/AndroidPokedex.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/AndroidPokedex.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/AndroidPokedex.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/AndroidPokedex.app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/ui/fragments/PokedexListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/ui/fragments/PokedexListFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/ui/viewmodels/PokedexListViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/ui/viewmodels/PokedexListViewModel.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,22 +197,22 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/ui/viewmodels/PokedexListViewModel.kt</url>
-          <line>49</line>
+          <line>46</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/ui/viewmodels/PokedexListViewModel.kt</url>
-          <line>69</line>
+          <line>66</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/ui/fragments/PokedexListFragment.kt</url>
-          <line>34</line>
+          <line>33</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/ui/viewmodels/PokedexListViewModel.kt</url>
-          <line>70</line>
+          <line>67</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>

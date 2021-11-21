@@ -34,9 +34,6 @@ class PokedexListViewModel @Inject constructor(
     var loadError = mutableStateOf("")
     var isLoading = mutableStateOf(false)
     var endReached = mutableStateOf(false)
-    private var cachedPokemonList = listOf<PokedexListEntry>()
-    private var isSearchStarting = true
-    var isSearching = mutableStateOf(false)
 
     init {
         loadPokedex()
@@ -80,40 +77,4 @@ class PokedexListViewModel @Inject constructor(
         }
     }
 
-    @RequiresApi(Build.VERSION_CODES.O)
-    fun calDominateColor(drawable: Drawable, onFinish: (android.graphics.Color) -> Unit) {
-        val bmp = (drawable as BitmapDrawable).bitmap.copy(Bitmap.Config.ARGB_8888, true)
-
-        Palette.from(bmp).generate { palette ->
-            palette?.dominantSwatch?.rgb?.let { colorValue ->
-                onFinish(android.graphics.Color.valueOf(colorValue))
-            }
-        }
-    }
-
-    fun searchPokedexList(query: String) {
-        val listToSearch = if (isSearchStarting) {
-            _pokemonList.value
-        } else {
-            cachedPokemonList
-        }
-        viewModelScope.launch(Dispatchers.Default) {
-            if (query.isEmpty()) {
-                _pokemonList.value = cachedPokemonList
-                isSearching.value = false
-                isSearchStarting = true
-                return@launch
-            }
-            val result = listToSearch.filter {
-                it.pokemonName.contains(query.trim(), ignoreCase = true) ||
-                        it.number.toString() == query.trim()
-            }
-            if (isSearchStarting) {
-                cachedPokemonList = _pokemonList.value
-                isSearchStarting = false
-            }
-            _pokemonList.value = result
-            isSearching.value = true
-        }
-    }
 }

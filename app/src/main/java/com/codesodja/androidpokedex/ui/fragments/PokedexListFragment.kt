@@ -30,7 +30,6 @@ class PokedexListFragment : Fragment() {
         val view = inflater.inflate(R.layout.pokedex_list_fragment, container, false)
 
         var items = view.findViewById<RecyclerView>(R.id.pokedex_item)
-        var imageView = view.findViewById<ImageView>(R.id.logo)
         viewModel.pokemonList.observe(requireActivity()) { response ->
             val adapter = PokedexAdapter(response, requireActivity())
             val curSize = adapter.itemCount
@@ -41,10 +40,6 @@ class PokedexListFragment : Fragment() {
             items.layoutManager = LinearLayoutManager(requireContext())
         }
 
-
-        /*
-        val tester  = view.findViewById<TextView>(R.id.tester)
-       */
         return view
     }
 
@@ -60,7 +55,5 @@ class PokedexListFragment : Fragment() {
     }
 
     private fun fetchData() {
-        //  viewModel.loadPokedex()
-        //  Log.d("currents", viewModel.pokemonList.value.toString())
     }
 }
