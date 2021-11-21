@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_8"
+    app:cardCornerRadius="@dimen/radius_10"
+    app:cardElevation="@dimen/elevation_12">
+
+    <RelativeLayout
+        android:id="@+id/items_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/elevation_12">
+
+        <ImageView
+            android:id="@+id/poke_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="@dimen/margin_8"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_international_pok_mon_logo" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/margin_8"
+            android:layout_marginEnd="@dimen/margin_8"
+            android:layout_toEndOf="@+id/poke_image"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="@id/poke_image"
+            app:layout_constraintStart_toEndOf="@id/poke_image"
+            app:layout_constraintTop_toTopOf="@id/poke_image">
+
+            <TextView
+                android:id="@+id/poke_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="slkflskskskfsfkslkf"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_26" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
