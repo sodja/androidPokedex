@@ -40,7 +40,7 @@
                 android:id="@+id/poke_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="slkflskskskfsfkslkf"
+                android:text="result"
                 android:textColor="@color/black"
                 android:textSize="@dimen/text_size_26" />
         </LinearLayout>

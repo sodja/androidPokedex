@@ -1,7 +1,8 @@
-package com.codesodja.androidpokedex
+package com.codesodja.androidpokedex.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.codesodja.androidpokedex.R
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

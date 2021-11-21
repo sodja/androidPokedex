@@ -13,8 +13,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f7b3b7c-51ce-4824-8cde-18b1bbb5542d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/ui/fragments/PokedexListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/ui/fragments/PokedexListFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/ui/viewmodels/PokedexListViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/ui/viewmodels/PokedexListViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/local/dao/FavoritePokedexDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/local/model/FavoritePokedex.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/data/local/pokedexDatabase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/repository/LocalRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/875789618a63f4ea28f15009b953615478d512d8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/ui/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/utils/Pokedexparse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/pokedex_items.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/pokedex_items.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +78,9 @@
       <list>
         <option value="Kotlin Object" />
         <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
         <option value="navigationResourceFile" />
         <option value="layoutResourceFile" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -90,17 +108,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/values" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/codesodja/androidpokedex/repository" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\A754794\Documents\perso\projects\AndroidPokedex\app\src\main\java\com\codesodja\androidpokedex\repository" />
+      <recent name="C:\Users\A754794\Documents\perso\projects\AndroidPokedex\app\src\main\java\com\codesodja\androidpokedex\data\local\model" />
+      <recent name="C:\Users\A754794\Documents\perso\projects\AndroidPokedex\app\src\main\java\com\codesodja\androidpokedex\data\local\dao" />
+      <recent name="C:\Users\A754794\Documents\perso\projects\AndroidPokedex\app\src\main\java\com\codesodja\androidpokedex\data\local" />
       <recent name="C:\Users\A754794\Documents\perso\projects\AndroidPokedex\app\src\main\res\values" />
-      <recent name="C:\Users\A754794\Documents\perso\projects\AndroidPokedex\app\src\main\java\com\codesodja\androidpokedex\adapter" />
-      <recent name="C:\Users\A754794\Documents\perso\projects\AndroidPokedex\app\src\main\res\drawable" />
-      <recent name="C:\Users\A754794\Documents\perso\projects\AndroidPokedex\app\src\main\res" />
-      <recent name="C:\Users\A754794\Documents\perso\projects\AndroidPokedex\app\src\main\java\com\codesodja\androidpokedex\utils" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.codesodja.androidpokedex.ui" />
       <recent name="com.codesodja.androidpokedex.ui.viewmodels" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
