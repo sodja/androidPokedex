@@ -61,9 +61,6 @@ class PokedexListViewModel @Inject constructor(
                             }, url , number.toInt() )
                         }
                         curPage++
-
-                        loadError.value = ""
-                        isLoading.value = false
                         _pokemonList.value += pokedexEntries
                         pokemonList.postValue(_pokemonList.value)
                     }

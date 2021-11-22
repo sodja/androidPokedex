@@ -25,5 +25,4 @@ abstract class SafeApiRequest {
 
     private fun <T> error(errorMessage: String): Resource<T> =
         Resource.Error("Api call failed $errorMessage")
-
 }
