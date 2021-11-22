@@ -1,8 +1,6 @@
 
 >
 app/.gitignore,5\1\51e1c5d383dfaa35e0e7e5873a0a99355a86880f
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 „
 Tapp/src/main/java/com/codesodja/androidpokedex/data/remote/responses/DiamondPearl.kt,4\d\4d833a470d1683d65c4c5a716eca0f73218818d5
 €
@@ -21,3 +19,31 @@ p
 Napp/src/main/java/com/codesodja/androidpokedex/data/remote/responses/Result.kt,d\a\da98ebccadd6a6e75f67818842101ec4f02b153a
 ƒ
 Sapp/src/main/java/com/codesodja/androidpokedex/data/remote/responses/PokemonList.kt,4\d\4d022d4bf674ba82f6c49c678a175f4f7e6adcbe
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+v
+Fapp/src/main/java/com/codesodja/androidpokedex/MyPokedexApplication.kt,5\c\5cc243d9d5f8d5d1547fd9e0ae1c0a1ca156ed38
+q
+Aapp/src/main/java/com/codesodja/androidpokedex/utils/Constants.kt,4\a\4a91421a1e2d81de079cbbc374187fb56a027f1a
+†
+Vapp/src/main/java/com/codesodja/androidpokedex/ui/viewmodels/PokedexDetailViewModel.kt,c\7\c7c440fb15d368df6b49e111c8cfa51c2c164f84
+x
+Happ/src/main/java/com/codesodja/androidpokedex/adapter/PokedexAdapter.kt,3\8\3843d148299d7686ac0ea2afb5b1d65c1cf3ece0
+}
+Mapp/src/main/java/com/codesodja/androidpokedex/adapter/PokedexDiffCallback.kt,7\b\7bbdc17e592b10d74f39df38b0681bd923ca65bd
+„
+Tapp/src/main/java/com/codesodja/androidpokedex/ui/viewmodels/PokedexListViewModel.kt,2\9\2949e532ce84569d4734b007b030df21fc163a04
+„
+Tapp/src/main/java/com/codesodja/androidpokedex/ui/fragments/PokedexDetailFragment.kt,8\a\8a05d85eaf8c9a86822f7b06810bc483447de059
+‚
+Rapp/src/main/java/com/codesodja/androidpokedex/ui/fragments/PokedexListFragment.kt,5\8\588c776f49effd9000525dc939a95fd7489b1ea4
+z
+Japp/src/main/java/com/codesodja/androidpokedex/data/remote/ApiInterface.kt,4\5\4555fd7d2dc24806081b6ba45af517f7ad7c32d6
+|
+Lapp/src/main/java/com/codesodja/androidpokedex/data/remote/SafeApiRequest.kt,b\a\bacbebff651220f22666ae27452b6c61830e8ded
+n
+>app/src/main/java/com/codesodja/androidpokedex/di/AppModule.kt,5\b\5b869f9171868cb5ddd5999fee46bbde89615baf
+~
+Napp/src/main/java/com/codesodja/androidpokedex/repository/PokedexRepository.kt,1\b\1b686996bcf0e3070c92aba1721881f1ab32f96f
+q
+Aapp/src/main/java/com/codesodja/androidpokedex/ui/MainActivity.kt,a\7\a74b00681a654039658fc4d32873c93df470bb69
